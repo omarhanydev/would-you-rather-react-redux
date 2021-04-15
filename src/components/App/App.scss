@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+
+.avatar-img--size-sm {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-img--size-xl {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px rgba(0,0,0,.05);
+}
+
+.card-header {
+    background-color: rgb(220 53 69 / 10%);
+    color: #dc3545;
+}
+
+.card-header.card-header--theme-dimmed {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.nav-tabs .nav-link {
+    background: rgba(220, 53, 69, 0.31);
+    color: #9e0414;
+}
+
+.nav-tabs .nav-link.active {
+    background: #d34957;
+    color: #fff;
+}
+
+.progress-bar {
+    min-width: 30px;
+}
